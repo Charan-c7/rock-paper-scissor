@@ -2,8 +2,8 @@ function play(playerChoice)
 {
     const choice=['rock','paper','scissor'];
     const computerChoice=choice[Math.floor(Math.random()*3)];
-    document.getElementById("user_Image").style.backgroundImage=`url(./${playerChoice}.png)`;
-    document.getElementById("computer_image").style.backgroundImage=`url(./${computerChoice}.png)`;
+    document.getElementById("user_Image").style.backgroundImage=`url(${playerChoice}.png)`;
+    document.getElementById("computer_image").style.backgroundImage=`url(${computerChoice}.png)`;
     document.getElementById("ck").style.display = "none";
 
     let result="";
